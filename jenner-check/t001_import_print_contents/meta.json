@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_import_print_contents",
+  "source_file": "online_shoppers.sas",
+  "source_blob_sha": "a069766484641d227721da7fe296987de834cc63",
+  "source_commit": "7ced3a8b674fcc6a926b328bd7fbbe8c3cb58a4d",
+  "notes": "Import + first-10 PROC PRINT + PROC CONTENTS (data ingestion/inspection section of the analysis). The original hardcoded-path PROC IMPORT (D:\\DSA Course\\...) is replaced with an inline DATA step reading a 35-row sample of the repo's online_shoppers_intention.csv via DATALINES, since the shipped runner uploads only script.sas + autoexec.sas (no sibling data files)."
+}

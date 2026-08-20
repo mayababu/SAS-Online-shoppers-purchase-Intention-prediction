@@ -1,0 +1,30 @@
+NOTE: Option OBS changed to 100.
+NOTE: PROC IMPORT datafile=./input/online_shoppers_sample.csv out=online_shoppers
+
+NOTE: Imported 35 rows from ./input/online_shoppers_sample.csv.
+NOTE: DATA online_shoppers2
+
+
+NOTE: Read 35 rows from online_shoppers.
+NOTE: Wrote online_shoppers2 (35 rows, 18 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+WARNING: PROC LOGISTIC OUTPUT option 'predprob' is not recognized and will be ignored.
+WARNING: PROC LOGISTIC OUTPUT option 'individual' is not recognized and will be ignored.
+WARNING: PROC LOGISTIC OUTPUT option 'crossvalidate' is not recognized and will be ignored.
+WARNING: PROC LOGISTIC OUTPUT option 'RParen' is not recognized and will be ignored.
+NOTE: ODS HTML: no FILE=/BODY= given; defaulting output to sashtml.htm.
+NOTE: ODS HTML: Destination opened (file=sashtml.htm).
+NOTE: ODS Graphics is ON (width=640px, height=480px, format=SVG).
+NOTE: PROC LOGISTIC data=online_shoppers2
+
+NOTE: Using Python statsmodels.api.Logit version 0.14.6
+NOTE: Output dataset pred written with 35 observations.
+NOTE: ODS plot written: logistic_oddsratio.spec.json
+NOTE: PROC LOGISTIC ODS Graphics generated.
+NOTE: PROC LOGISTIC completed. Results written to: ./ods_output/logistic_results.spec.json
+NOTE: ODS Graphics is OFF.
+NOTE: PROC PRINT data=pred
+
+NOTE: PROC PRINT completed: 10 observations printed, 4 variables

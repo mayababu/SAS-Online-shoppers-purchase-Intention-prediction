@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_logistic_regression",
+  "source_file": "online_shoppers.sas",
+  "source_blob_sha": "a069766484641d227721da7fe296987de834cc63",
+  "source_commit": "7ced3a8b674fcc6a926b328bd7fbbe8c3cb58a4d",
+  "notes": "The centerpiece predictive model: PROC LOGISTIC (class/model/output) predicting Revenue from session features, after quarter feature engineering. The OUTPUT statement in the original script uses predprob=(individual crossvalidate), which is not valid PROC LOGISTIC OUTPUT syntax (correct SAS 9.4 keyword is PREDPROBS=(I C XVALIDATE)); Jenner correctly warns and ignores the unrecognized options rather than failing, matching how a real analyst would discover the typo. Kept verbatim from the source script since it is real code as written by the author, not a Jenner defect. exit_code is 1 due to the 4 parse warnings even though the run completed and produced the model. Data ingestion swapped from PROC IMPORT (hardcoded path) to inline DATALINES sample, for runner self-containment."
+}

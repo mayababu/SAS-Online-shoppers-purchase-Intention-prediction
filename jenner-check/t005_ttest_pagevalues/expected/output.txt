@@ -1,0 +1,84 @@
+                                                 PageValues Vs Revenue
+
+                         The TTEST Procedure                          
+                        Variable:  PageValues                         
+
+Revenue            N      Mean   Std Dev   Std Err   Minimum   Maximum
+----------  --------  --------  --------  --------  --------  --------
+FALSE             20    0.1263    0.5650    0.1263    0.0000    2.5266
+TRUE              15   34.7725   37.5517    9.6958    0.0000  143.4767
+Diff (1-2)            -34.6461                                        
+
+Revenue     Lower CL Mean      Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+----------  -------------  --------  -------------  ----------------  --------  ----------------
+FALSE             -0.1381    0.1263         0.3907            0.4297    0.5650            0.8252
+TRUE              13.9770   34.7725        55.5679           27.4926   37.5517           59.2227
+Diff (1-2)       -51.6457  -34.6461       -17.6466           19.7310   24.4626           32.1996
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal            33     -4.15    0.0002
+Satterthwaite  Unequal        14.0     -3.57    0.0031
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F   4417.84    <.0001
+
+                                               ProductRelated Vs Revenue
+
+                         The TTEST Procedure                          
+                      Variable:  ProductRelated                       
+
+Revenue            N      Mean   Std Dev   Std Err   Minimum   Maximum
+----------  --------  --------  --------  --------  --------  --------
+FALSE             20   23.0000   38.3804    8.5821    1.0000  131.0000
+TRUE              15   63.5333   90.0967   23.2629   10.0000  338.0000
+Diff (1-2)            -40.5333                                        
+
+Revenue     Lower CL Mean      Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+----------  -------------  --------  -------------  ----------------  --------  ----------------
+FALSE              5.0374   23.0000        40.9626           29.1879   38.3804           56.0573
+TRUE              13.6395   63.5333       113.4272           65.9622   90.0967          142.0914
+Diff (1-2)       -86.0591  -40.5333         4.9925           52.8407   65.5124           86.2325
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal            33     -1.81    0.0792
+Satterthwaite  Unequal        17.8     -1.63    0.1196
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F      5.51    0.0008
+
+                                                  ExitRates Vs Revenue
+
+                         The TTEST Procedure                          
+                         Variable:  ExitRates                         
+
+Revenue            N      Mean   Std Dev   Std Err   Minimum   Maximum
+----------  --------  --------  --------  --------  --------  --------
+FALSE             20    0.0470    0.0464    0.0104    0.0053    0.2000
+TRUE              15    0.0145    0.0088    0.0023    0.0000    0.0318
+Diff (1-2)              0.0325                                        
+
+Revenue     Lower CL Mean      Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+----------  -------------  --------  -------------  ----------------  --------  ----------------
+FALSE              0.0253    0.0470         0.0687            0.0353    0.0464            0.0677
+TRUE               0.0097    0.0145         0.0194            0.0065    0.0088            0.0139
+Diff (1-2)         0.0077    0.0325         0.0572            0.0288    0.0357            0.0469
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal            33      2.67    0.0118
+Satterthwaite  Unequal        20.8      3.06    0.0060
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F     27.61    <.0001
+

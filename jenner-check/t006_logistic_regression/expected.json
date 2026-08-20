@@ -1,0 +1,24 @@
+{
+  "_captured_at": "2026-08-20T07:13:44Z",
+  "_captured_run_id": "r_1dd0c12ee24745d7a0a484d452f99824",
+  "status": "ok",
+  "exit_code": 1,
+  "log_contains": [
+    "NOTE: PROC LOGISTIC data=online_shoppers2",
+    "NOTE: Output dataset pred written with 35 observations.",
+    "NOTE: PROC PRINT completed: 10 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [
+      "PROC LOGISTIC OUTPUT option 'predprob' is not recognized and will be ignored.",
+      "PROC LOGISTIC OUTPUT option 'individual' is not recognized and will be ignored.",
+      "PROC LOGISTIC OUTPUT option 'crossvalidate' is not recognized and will be ignored.",
+      "PROC LOGISTIC OUTPUT option 'RParen' is not recognized and will be ignored."
+    ],
+    "runtime_warnings": []
+  }
+}

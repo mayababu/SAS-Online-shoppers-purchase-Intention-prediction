@@ -1,0 +1,122 @@
+             The LOGISTIC Procedure             
+               Model Information                
+
+Data Set                   WORK.ONLINE_SHOPPERS2
+Response Variable          Revenue              
+Number of Response Levels  2                    
+Model                      binary logit         
+Optimization Technique     Fisher's scoring     
+
+Number of Observations Read        35
+Number of Observations Used        35
+
+            Response Profile            
+ Probability modeled is Revenue='TRUE'  
+
+Ordered Value  Revenue   Total Frequency
+-------------  --------  ---------------
+            1  FALSE                  20
+            2  TRUE                   15
+
+                  Class Level Information                   
+
+                                      Design Variables
+Class        Value                                          
+-----------  -----------------  --------  --------  --------
+VisitorType  New_Visitor               1                    
+             Returning_Visitor         0                    
+Weekend      FALSE                     1                    
+             TRUE                      0                    
+quarter      Q1                        1         0         0
+             Q2                        0         1         0
+             Q3                        0         0         1
+             Q4                        0         0         0
+
+          Model Convergence Status           
+
+Convergence criterion (GCONV=1E-8) satisfied.
+
+                                                                                                                     
+---------------------------------------------------------------------------------------------------------------------
+WARNING: There is possibly a quasi-complete separation of data points. The maximum likelihood estimate may not exist.
+
+Model Fit Statistics
+
+Criterion     Value
+---------  --------
+AIC          52.417
+-2 Log L     18.417
+SC           78.858
+
+                              Analysis of Maximum Likelihood Estimates                               
+
+Parameter                                   DF  Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+-----------------------  -----------  --------  --------  --------------  ---------------  ----------
+Intercept                                    1    0.3265          2.1233           0.0236      0.8778
+VisitorType              New_Visitor         1    1.0963          1.8623           0.3465      0.5561
+Weekend                  FALSE               1   -1.3025          1.3093           0.9898      0.3198
+quarter                  Q1                  1   -0.3992          1.6120           0.0613      0.8044
+quarter                  Q2                  1    1.8590          1.5473           1.4435      0.2296
+quarter                  Q3                  1    1.1571          2.4543           0.2223      0.6373
+Browser                                      1    0.1821          0.5700           0.1021      0.7493
+TrafficType                                  1   -0.0463          0.1310           0.1251      0.7236
+Region                                       1    0.0149          0.2009           0.0055      0.9407
+OperatingSystems                             1   -0.4409          0.8983           0.2408      0.6236
+Administrative                               1   -0.0911          0.3342           0.0744      0.7851
+Administrative_Duration                      1    0.0012          0.0046           0.0688      0.7931
+Informational                                1    0.3879          0.4145           0.8757      0.3494
+Informational_Duration                       1    0.0016          0.0051           0.0937      0.7596
+ProductRelated                               1   -0.0032          0.0317           0.0100      0.9202
+ExitRates                                    1  -10.9038         16.1553           0.4555      0.4997
+PageValues                                   1    0.0138          0.0292           0.2215      0.6379
+
+Hosmer and Lemeshow Goodness-of-Fit Test
+
+Chi-Square        DF  Pr > ChiSq
+----------  --------  ----------
+    8.4848         8      0.3876
+
+                                  Odds Ratio Estimates                                  
+
+                                                              95% Wald Confidence Limits
+Effect                                        Point Estimate                            
+--------------------------------------------  --------------  ------------  ------------
+VisitorType New_Visitor vs Returning_Visitor           2.993         0.078       115.148
+Weekend FALSE vs TRUE                                  0.272         0.021         3.538
+quarter Q1 vs Q4                                       0.671         0.028        15.805
+quarter Q2 vs Q4                                       6.418         0.309       133.190
+quarter Q3 vs Q4                                       3.181         0.026       390.531
+Browser                                                1.200         0.393         3.666
+TrafficType                                            0.955         0.738         1.234
+Region                                                 1.015         0.685         1.505
+OperatingSystems                                       0.643         0.111         3.743
+Administrative                                         0.913         0.474         1.758
+Administrative_Duration                                1.001         0.992         1.010
+Informational                                          1.474         0.654         3.321
+Informational_Duration                                 1.002         0.992         1.012
+ProductRelated                                         0.997         0.937         1.061
+ExitRates                                             <0.001        <0.001      >999.999
+PageValues                                             1.014         0.957         1.074
+
+Association of Predicted Probabilities and Observed Responses
+
+Percent Concordant      99.7  Somers' D     0.993
+Percent Discordant       0.3  Gamma         0.993
+Percent Tied             0.0  Tau-a         0.501
+Pairs                    300  c             0.997
+
+
+  Obs  Revenue      phat  lcl  ucl
+    1  TRUE     0.531878    .    .
+    2  FALSE     0.40508    .    .
+    3  TRUE     0.693703    .    .
+    4  TRUE      0.65881    .    .
+    5  FALSE    0.117966    .    .
+    6  FALSE    0.449888    .    .
+    7  TRUE     0.932164    .    .
+    8  FALSE    0.298965    .    .
+    9  TRUE     0.749067    .    .
+   10  FALSE    0.064049    .    .
+
+... 25 more observations (showing 10 of 35)
+

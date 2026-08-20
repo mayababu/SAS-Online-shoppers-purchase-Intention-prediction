@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-08-20T07:16:50Z",
+  "_captured_run_id": "r_9423042351be40eda625913152cd7c2b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: DATA online_shoppers2",
+    "NOTE: PROC FREQ statement used.",
+    "NOTE: Wrote online_shoppers2 (35 rows, 18 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

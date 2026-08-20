@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_means_nodupkey",
+  "source_file": "online_shoppers.sas",
+  "source_blob_sha": "a069766484641d227721da7fe296987de834cc63",
+  "source_commit": "7ced3a8b674fcc6a926b328bd7fbbe8c3cb58a4d",
+  "notes": "NULL-value check (PROC MEANS nmiss) + dedup (PROC SORT nodupkey) + full descriptive statistics (PROC MEANS), unchanged from the source script. Data ingestion swapped from PROC IMPORT (hardcoded path) to inline DATALINES sample, for runner self-containment."
+}

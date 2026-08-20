@@ -1,0 +1,48 @@
+
+  Obs  Administrative  Administrative_Duration  Informational  Informational_Duration  ProductRelated  ProductRelated_Duration  BounceRates    ExitRates   PageValues  SpecialDay  Month  OperatingSystems  Browser  Region  TrafficType        VisitorType  Weekend  Revenue
+    1               1                     29.5              0                       0              29              569.1666667            0   0.01957672       12.455           0  May                   2        2       3            2  Returning_Visitor  FALSE    TRUE
+    2              15              937.1746032              3                     357             109              6682.677557  0.000833333  0.005345441  2.526616865           0  Mar                   1        2       3            2  Returning_Visitor  FALSE    FALSE
+    3              26              1561.717567              9             503.7222222             183               9676.09318  0.011054834  0.014200442  19.56746389           0  Nov                   3        2       2           13  Returning_Visitor  FALSE    TRUE
+    4               5                     85.5              0                       0              30              2188.258333            0    0.0078125  45.58268367           0  Nov                   2        2       2            8  New_Visitor        TRUE     TRUE
+    5               0                        0              0                       0               5                      143            0         0.04            0           0  Mar                   2        4       1            1  Returning_Visitor  FALSE    FALSE
+    6               0                        0              0                       0              12              315.7797619  0.016666667        0.025            0           0  Nov                   1        1       9            2  Returning_Visitor  TRUE     FALSE
+    7               2                     57.5              0                       0              16                     1226            0       0.0125  143.4766783           0  Dec                   2        2       9            2  New_Visitor        TRUE     TRUE
+    8               7                       70              4                      35             131              4442.394444  0.011678832  0.014283502            0           0  Nov                   4        1       1            2  Returning_Visitor  TRUE     FALSE
+    9               2                     30.5              2                      18              15              1518.097619            0  0.031764706  31.75764706           0  May                   2        2       8            2  Returning_Visitor  FALSE    TRUE
+   10               0                        0              0                       0              23                    566.8            0  0.007971014            0           0  Nov                   3        2       1           13  Returning_Visitor  FALSE    FALSE
+
+... 25 more observations (showing 10 of 35)
+
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: online_shoppers
+Observations:  35
+Variables:     18
+
+Variables (in alphabetical order):
+
+  #  Variable                 Type    Len  Format  Label
+---  -----------------------  ----  -----  ------  -----
+  1  Administrative            Num      8          
+  2  Administrative_Duration   Num      8          
+  3  BounceRates               Num      8          
+  4  Browser                   Num      8          
+  5  ExitRates                 Num      8          
+  6  Informational             Num      8          
+  7  Informational_Duration    Num      8          
+  8  Month                    Char      8          
+  9  OperatingSystems          Num      8          
+ 10  PageValues                Num      8          
+ 11  ProductRelated            Num      8          
+ 12  ProductRelated_Duration   Num      8          
+ 13  Region                    Num      8          
+ 14  Revenue                  Char      8          
+ 15  SpecialDay                Num      8          
+ 16  TrafficType               Num      8          
+ 17  VisitorType              Char     17          
+ 18  Weekend                  Char      8          
+
+-------------------------------------------------------------------------------
+
