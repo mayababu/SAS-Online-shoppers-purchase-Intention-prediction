@@ -1,0 +1,100 @@
+                                        Bivariate analysis - Quarter Vs Revenue
+
+                                                   The FREQ Procedure
+
+Table of quarter by Revenue
+
+Frequency
+Percent
+Row Pct
+Col Pct
+
+quarter |     FALSE |      TRUE |      Total
+--------+-----------+-----------+-----------
+Q1      |         8 |         1 |          9
+        |     22.86 |      2.86 |      25.71
+        |     88.89 |     11.11 |           
+        |     40.00 |      6.67 |           
+--------+-----------+-----------+-----------
+Q2      |         4 |         6 |         10
+        |     11.43 |     17.14 |      28.57
+        |     40.00 |     60.00 |           
+        |     20.00 |     40.00 |           
+--------+-----------+-----------+-----------
+Q3      |         1 |         1 |          2
+        |      2.86 |      2.86 |       5.71
+        |     50.00 |     50.00 |           
+        |      5.00 |      6.67 |           
+--------+-----------+-----------+-----------
+Q4      |         7 |         7 |         14
+        |     20.00 |     20.00 |      40.00
+        |     50.00 |     50.00 |           
+        |     35.00 |     46.67 |           
+--------+-----------+-----------+-----------
+Total   |        20 |        15 |         35
+        |     57.14 |     42.86 |     100.00
+
+Statistics for Table of quarter by Revenue
+
+Statistic                                DF  Value         Prob
+--------------------------------------------------------------
+Chi-Square                                3 5.2370       0.1552
+Likelihood Ratio Chi-Square               3 5.8836       0.1174
+Mantel-Haenszel Chi-Square                1 1.8229       0.1770
+
+Phi Coefficient                      0.3868
+Contingency Coefficient              0.3608
+Cramer's V                           0.3868
+
+WARNING: 50% of the cells have expected counts less than 5. Chi-Square may not be a valid test.
+
+                                      Bivariate analysis - VisitorType Vs Revenue
+
+                                                   The FREQ Procedure
+
+Table of VisitorType by Revenue
+
+Frequency
+Percent
+Row Pct
+Col Pct
+
+VisitorType       |     FALSE |      TRUE |      Total
+------------------+-----------+-----------+-----------
+New_Visitor       |         2 |         7 |          9
+                  |      5.71 |     20.00 |      25.71
+                  |     22.22 |     77.78 |           
+                  |     10.00 |     46.67 |           
+------------------+-----------+-----------+-----------
+Returning_Visitor |        18 |         8 |         26
+                  |     51.43 |     22.86 |      74.29
+                  |     69.23 |     30.77 |           
+                  |     90.00 |     53.33 |           
+------------------+-----------+-----------+-----------
+Total             |        20 |        15 |         35
+                  |     57.14 |     42.86 |     100.00
+
+Statistics for Table of VisitorType by Revenue
+
+Statistic                                DF  Value         Prob
+--------------------------------------------------------------
+Chi-Square                                1 6.0328       0.0140
+Likelihood Ratio Chi-Square               1 6.1723       0.0130
+Continuity Adj. Chi-Square                1 4.2659       0.0389
+Mantel-Haenszel Chi-Square                1 5.8604       0.0155
+
+Phi Coefficient                     -0.4152
+Contingency Coefficient              0.3834
+Cramer's V                          -0.4152
+
+WARNING: 25% of the cells have expected counts less than 5. Chi-Square may not be a valid test.
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F)                            2
+Left-sided Pr <= F                             0.0192
+Right-sided Pr >= F                            0.9981
+
+Table Probability (P)                          0.0173
+Two-sided Pr <= P                              0.0216
+

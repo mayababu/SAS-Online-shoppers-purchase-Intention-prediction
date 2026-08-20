@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-08-20T07:16:50Z",
+  "_captured_run_id": "r_6e293ef29e4b4f5bb8603c35a11a442b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC TTEST statement used.",
+    "NOTE: Processing inline DATALINES (35 lines)"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

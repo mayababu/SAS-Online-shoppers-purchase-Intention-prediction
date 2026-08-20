@@ -1,0 +1,16 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA online_shoppers
+
+NOTE: Processing inline DATALINES (35 lines)
+
+NOTE: Read 35 rows from DATALINES.
+NOTE: Wrote online_shoppers (35 rows, 18 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=online_shoppers
+
+NOTE: PROC PRINT completed: 10 observations printed, 18 variables
+NOTE: PROC CONTENTS data=online_shoppers
+
+NOTE: PROC CONTENTS completed: 35 observations, 18 variables

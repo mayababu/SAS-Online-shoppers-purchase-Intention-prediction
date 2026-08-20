@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-08-20T07:16:50Z",
+  "_captured_run_id": "r_4607ad66b42a4b27b12ac46fdd23bba5",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Processing inline DATALINES (35 lines)",
+    "NOTE: PROC PRINT completed: 10 observations printed, 18 variables",
+    "NOTE: PROC CONTENTS completed: 35 observations, 18 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

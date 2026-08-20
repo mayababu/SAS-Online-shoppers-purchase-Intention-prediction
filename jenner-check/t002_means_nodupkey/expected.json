@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-08-20T07:16:50Z",
+  "_captured_run_id": "r_dc9093009ac24e7e9abf703dec0f0043",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: PROC SORT statement used.",
+    "NOTE: Wrote online_shoppers_data (35 rows, 18 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

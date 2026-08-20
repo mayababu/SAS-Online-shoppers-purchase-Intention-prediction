@@ -1,0 +1,24 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA online_shoppers
+
+NOTE: Processing inline DATALINES (35 lines)
+
+NOTE: Read 35 rows from DATALINES.
+NOTE: Wrote online_shoppers (35 rows, 18 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Correlation Matrix.
+NOTE: PROC CORR data=online_shoppers
+
+NOTE: Output dataset written to: /tmp/work/r_1e28eae11fce43a4a251f9f2e707c9b2/work/be436d1d-3eb2-45bb-a1fa-da8df92751bd/corr_matrix.avro
+NOTE: PROC RANK data=online_shoppers out=online_shoppers_binned groups=2
+
+
+NOTE: Read 35 rows from online_shoppers.
+NOTE: Wrote online_shoppers_binned (35 rows, 19 columns).
+NOTE: PROC RANK elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: PROC FREQ statement used.

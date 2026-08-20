@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_univariate_capping",
+  "source_file": "online_shoppers.sas",
+  "source_blob_sha": "a069766484641d227721da7fe296987de834cc63",
+  "source_commit": "7ced3a8b674fcc6a926b328bd7fbbe8c3cb58a4d",
+  "notes": "Outlier capping technique: PROC UNIVARIATE percentile output -> symputx macro variables -> conditional capping DATA step, for Informational_Duration; unchanged from the source script. Data ingestion swapped from PROC IMPORT (hardcoded path) to inline DATALINES sample, for runner self-containment."
+}
